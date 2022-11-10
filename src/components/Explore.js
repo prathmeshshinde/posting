@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Header from "./Header";
 import Option from "./Option";
 import People from "./People";
 import Posts from "./Posts";
-import { db } from "../firebase_config";
 
 const Explore = () => {
   return (
